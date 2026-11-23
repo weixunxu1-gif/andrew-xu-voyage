@@ -60,7 +60,6 @@ const copy = {
       }
     ],
     templates: [
-      ["沿途风景", "旅行札记和照片将在这里更新。"],
       ["关于水手安德鲁", "这一页留给足球、骑行、徒步、围棋，以及工作之外的我。"],
       ["想对安德鲁说的", "匿名留言功能筹备中。开放后，我会挑选部分留言展示。"],
       ["联系我", "联系方式待补充。"]
@@ -128,7 +127,6 @@ const copy = {
       }
     ],
     templates: [
-      ["Travel Notes", "This is where I’ll share stories and photos from my travels."],
       ["About Andrew the Sailor", "A place for football, cycling, hiking, Go, and life outside work."],
       ["Leave Andrew a Note", "The anonymous guestbook is coming. Once it opens, I’ll select a few notes to display here."],
       ["Contact", "Contact details will appear here."]

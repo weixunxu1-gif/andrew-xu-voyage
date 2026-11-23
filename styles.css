@@ -75,7 +75,8 @@ h2 { font-weight: 400; font-size: clamp(2.25rem, 4.3vw, 4rem); line-height: 1.13
 .stop-content ul { margin: 12px 0 0; padding-left: 1.2em; }
 .stop-content li + li { margin-top: 6px; }
 .stop-content li::marker { color: var(--accent); }
-.stop-content strong { color: var(--ink); margin-right: .3em; }
+.stop-content strong { color: var(--ink); }
+.stop-content li > strong:first-child { margin-right: .3em; }
 .templates { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; padding-block: 65px 75px; }
 .template { border-block-start: 1px solid var(--line); padding-block: 25px 32px; }
 .template h2 { font-size: clamp(1.5rem, 2.5vw, 2.2rem); letter-spacing: -.025em; }

@@ -30,13 +30,14 @@ function renderLanguage(language) {
     <h3 id="chapter-${index}">${chapter}</h3>
     <div class="route">${page.stops.slice(index * 3, index * 3 + 3).map(renderStop).join("")}</div>
   </section>`).join("");
-  templates.innerHTML = page.templates.map(([title, description], index) => {
+  templates.innerHTML = page.templates.map(([title, description, status], index) => {
     const id = sections[index + 2];
     return `<section class="template" id="${id}" aria-labelledby="${id}-title">
-      <h2 id="${id}-title">${title}</h2><p>${description}</p>
+      <h2 id="${id}-title">${title}</h2><p>${description}</p>${status ? `<p>${status}</p>` : ""}
     </section>`;
   }).join("");
   renderTravel(language);
+  renderContact(language);
   languageButtons.forEach((button) => button.setAttribute("aria-pressed", button.dataset.lang === language));
 }
 

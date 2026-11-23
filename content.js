@@ -3,7 +3,7 @@ const copy = {
     title: "Andrew XU · 航行手记",
     description: "Andrew XU 的个人网站。从投行与科研，到中国企业出海一线。",
     navLabel: "站内导航", skip: "跳到正文",
-    nav: ["航行历程", "沿途风景", "关于水手安德鲁", "想对安德鲁说的", "联系我"],
+    nav: ["航行历程", "沿途风景", "关于水手安德鲁", "海上信箱", "联系我"],
     label: "你的全球好物推荐官",
     greeting: "你好，我是",
     heroName: "Andrew！",
@@ -61,8 +61,7 @@ const copy = {
     ],
     templates: [
       ["关于水手安德鲁", "这一页留给足球、骑行、徒步、围棋，以及工作之外的我。"],
-      ["想对安德鲁说的", "匿名留言功能筹备中。开放后，我会挑选部分留言展示。"],
-      ["联系我", "联系方式待补充。"]
+      ["海上信箱", "在这里留下想对安德鲁说的话", "匿名留言功能筹备中。开放后，我会挑选部分留言展示。"]
     ],
     top: "返回首页"
   },
@@ -70,7 +69,7 @@ const copy = {
     title: "Andrew XU · Voyage Notes",
     description: "Andrew XU’s personal site. From investment banking and research to helping Chinese companies grow abroad.",
     navLabel: "Site navigation", skip: "Skip to content",
-    nav: ["Voyage", "Travel", "About", "Guestbook", "Contact"],
+    nav: ["Voyage", "Travel", "About", "Sea Mailbox", "Contact"],
     label: "Your guide to great finds from around the world",
     greeting: "Hi, I’m ",
     heroName: "Andrew!",
@@ -128,8 +127,7 @@ const copy = {
     ],
     templates: [
       ["About Andrew the Sailor", "A place for football, cycling, hiking, Go, and life outside work."],
-      ["Leave Andrew a Note", "The anonymous guestbook is coming. Once it opens, I’ll select a few notes to display here."],
-      ["Contact", "Contact details will appear here."]
+      ["Sea Mailbox", "Leave a note for Andrew here", "Anonymous notes will open later. I’ll select a few to display here."]
     ],
     top: "Back to home"
   }
